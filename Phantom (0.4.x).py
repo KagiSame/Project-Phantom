@@ -57,7 +57,7 @@ async def on_message(message):
 
     #Changelog
     if message.content.startswith("ph changelog"):
-        await message.channel.send("****Project Phantom Changelog**** \n ***V.0.1.0 Amazing Awoo*** - Intital Release of Phantom 1.x Branch \n ***v 0.2.0 Beautiful Byakuren*** Added Image commands last release of 1.x Branch \n ***v 0.3.0 Cold Cirno*** - Complete Rewrite from Python 3.6.x to 3.7  \n Start of Phantom 2.x Branch \n Neko command using Nekos.py API \n ***v 0.4.0 Divine Dayousei*** \n - A lot of Bug Fixes \n -Optimized Few Things (Thanks to The Arcane Brony) \n - ph help now outputs to DMs \n - Added support for NSFW  ")    
+        await message.channel.send("****Project Phantom Changelog**** \n ***V.0.1.0 Amazing Awoo*** - Intital Release of Phantom 1.x Branch \n ***v 0.2.0 Beautiful Byakuren*** Added Image commands last release of 1.x Branch \n ***v 0.3.0 Cold Cirno*** - Complete Rewrite from Python 3.6.x to 3.7  \n Start of Phantom 2.x Branch \n Neko command using Nekos.py API \n ***v 0.4.0 Divine Dayousei*** \n - A lot of Bug Fixes \n -Optimized Few Things (Thanks to The Arcane Brony) \n - ph help now outputs to DMs \n - Added support for NSFW \n Added ph invite (gives invite link) and ph lewdneko (as name implies ;3)")    
 
     #Phantom's runtime info
     if message.content.startswith("ph info"):
