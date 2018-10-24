@@ -1,4 +1,4 @@
-#Phantom 2 Beta Insider Bulid (V 0.4.0 CodeName Divine Dayousei)
+#Phantom 2 Beta Insider Bulid (V 0.4.1 CodeName Divine Dayousei)
 #Made by KagiSame with help from The Arcane Brony :D
 
 import platform
@@ -15,8 +15,8 @@ start_time = time.time()
 @client.event
 async def on_ready():
     print('Welcome To Phantom 2 Beta (Insider Bulid)')
-    print("V 0.4.0 CodeName Divine Dayousei")
-    game = discord.Game("V 0.4.0 CodeName Divine Dayousei")  
+    print("V 0.4.1 CodeName Divine Dayousei")
+    game = discord.Game("V 0.4.1 CodeName Divine Dayousei")  
     await client.change_presence(status=discord.Status.online, activity=game)
     
    
@@ -47,13 +47,18 @@ async def on_message(message):
     if message.content.startswith("ph multitest"):
         await message.channel.send("This is sample \n multi line message \n :thinking:")
 
-    #Random Neko Command (Powered by nekos.py API)
+    #Random LewdNeko Command (Powered by nekos.py API)
     if message.content.startswith("ph lewdneko"):
          if (message.channel.is_nsfw()):
             await message.channel.send("Neko for you :3",)
             await message.channel.send(nekos.img("lewd"))
          else:
              await message.channel.send("You can't use this command here \n Try NSFW Channels")
+
+    #Random Neko Command (Powered by nekos.py API)
+    if message.content.startswith("ph neko"):
+        await message.channel.send("Neko for you :3",)
+        await message.channel.send(nekos.img("neko"))
 
     #Changelog
     if message.content.startswith("ph changelog"):
@@ -70,6 +75,6 @@ async def on_message(message):
         await message.channel.send("Invite Phantom to Your Server : \n https://discordapp.com/oauth2/authorize?&client_id=482669512131477504&scope=bot&permissions=0")
     
 #Run Phantom
-client.run("put_your_token_here")       
+client.run("NDgyNjY5NTEyMTMxNDc3NTA0.Dq5mgw.gcYZUYEZjPxeF5p-91wGx2Fkjuc")       
 
 
