@@ -53,7 +53,7 @@ async def on_message(message):
             await message.channel.send("Neko for you :3",)
             await message.channel.send(nekos.img("lewd"))
          else:
-             await message.channel.send("You can't use this command here \n Try NSFW ")
+             await message.channel.send("You can't use this command here \n Try NSFW Channels")
 
     #Changelog
     if message.content.startswith("ph changelog"):
