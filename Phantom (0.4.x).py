@@ -70,6 +70,6 @@ async def on_message(message):
         await message.channel.send("Invite Phantom to Your Server : \n https://discordapp.com/oauth2/authorize?&client_id=482669512131477504&scope=bot&permissions=0")
     
 #Run Phantom
-client.run("NDgyMjg4OTk0MTY4ODY0Nzgw.Dq6bTA.Hk1RtUnleIwMGk4st58LVioxNqI")       
+client.run("put_your_token_here")       
 
 
