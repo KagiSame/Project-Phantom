@@ -92,6 +92,6 @@ async def on_message(message):
 
 
 #Run Phantom
-client.run("NDgyNjY5NTEyMTMxNDc3NTA0.D0hrvA.kLrjJXnrrW2xWPCFObdH6jJJdfU")       
+client.run("inserttokenhere")       
 
 
